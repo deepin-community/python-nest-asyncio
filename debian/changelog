@@ -1,0 +1,31 @@
+python-nest-asyncio (1.5.1-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Diego M. Rodriguez ]
+  * New upstream version 1.5.1 (Closes: #993300)
+  * d/watch: bump to version 4
+  * d/control: bump Standards-Version to 4.6.0 (no changes needed)
+  * d/tests: add autopkgtests
+
+ -- Diego M. Rodriguez <diego@moreda.io>  Tue, 31 Aug 2021 13:43:51 +0200
+
+python-nest-asyncio (1.3.3-1) unstable; urgency=medium
+
+  * New upstream version 1.3.3 (Closes: #959532)
+  * Add salsa CI using default pipelines
+  * d/upstream: add metadata
+  * d/control: bump debhelper-compat to 13
+  * d/control: fix Architecture: all
+
+ -- Diego M. Rodriguez <diego@moreda.io>  Mon, 15 Jun 2020 17:16:16 +0200
+
+python-nest-asyncio (1.2.3-1) unstable; urgency=medium
+
+  * Initial release (Closes: #942132)
+
+ -- Diego M. Rodriguez <diego@moreda.io>  Tue, 28 Jan 2020 13:59:39 +0100

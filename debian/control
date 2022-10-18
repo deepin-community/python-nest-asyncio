@@ -1,0 +1,25 @@
+Source: python-nest-asyncio
+Section: python
+Priority: optional
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Diego M. Rodriguez <diego@moreda.io>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               python3-pytest
+Standards-Version: 4.6.0
+Homepage: https://github.com/erdewit/nest_asyncio
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-nest-asyncio.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-nest-asyncio
+Testsuite: autopkgtest-pkg-python
+Rules-Requires-Root: no
+
+Package: python3-nest-asyncio
+Architecture: all
+Depends: ${python3:Depends},
+         ${misc:Depends}
+Description: Patch asyncio to allow nested event loops
+ By design, asyncio does not allow for nested event loops. This module
+ provides a function that patches asyncio in order to allow nested use
+ of asyncio.run and loop.run_until_complete.
