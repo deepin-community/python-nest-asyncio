@@ -4,7 +4,7 @@ Upstream-Contact: Ewald de Wit <ewald.de.wit@gmail.com>
 Source: https://github.com/erdewit/nest_asyncio
 
 Files: *
-Copyright: 2019 Ewald de Wit <ewald.de.wit@gmail.com>
+Copyright: 2018-2020 Ewald de Wit <ewald.de.wit@gmail.com>
 License: BSD-2-clause
 
 Files: debian/*

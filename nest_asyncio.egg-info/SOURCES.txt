@@ -2,6 +2,7 @@ LICENSE
 MANIFEST.in
 README.rst
 nest_asyncio.py
+pyproject.toml
 setup.cfg
 setup.py
 nest_asyncio.egg-info/PKG-INFO

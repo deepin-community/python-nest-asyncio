@@ -1,3 +1,13 @@
+python-nest-asyncio (1.5.4-1) unstable; urgency=medium
+
+  [ Diego M. Rodriguez ]
+  * New upstream version 1.5.4 (Closes: #1001424, #1002318)
+
+  [ Jeroen Ploemen ]
+  * Copyright: update upstream years.
+
+ -- Diego M. Rodriguez <diego@moreda.io>  Fri, 24 Dec 2021 10:14:58 +0000
+
 python-nest-asyncio (1.5.1-1) unstable; urgency=medium
 
   [ Ondřej Nový ]
